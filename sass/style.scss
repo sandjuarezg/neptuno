@@ -350,6 +350,12 @@ input, textarea {
         object-fit: cover;
         object-position: 50% 30%;
     }
+
+    &__team {
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 30%;
+    }
     
     &__texts{
         max-width: 700px;
@@ -579,7 +585,7 @@ input, textarea {
         grid-template-columns: 30px 1fr 30px;
     }
 
-    .testimony__body{
+    .testimony__body {
         grid-template-columns: 1fr;
         grid-template-rows: max-content max-content;
         gap: 3em;
@@ -590,7 +596,15 @@ input, textarea {
     .testimony__img{
         width: 200px;
         height: 200px;
-        
+    }
+
+    .team {
+        width: 80%;            
+    }
+
+    .img__team {
+        display: flex;
+        justify-content: center;
     }
 
     .questions__copy{

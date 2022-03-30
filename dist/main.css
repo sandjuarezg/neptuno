@@ -312,6 +312,11 @@ input, textarea {
   object-fit: cover;
   object-position: 50% 30%;
 }
+.testimony__team {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
 .testimony__texts {
   max-width: 700px;
 }
@@ -523,6 +528,15 @@ input, textarea {
   .testimony__img {
     width: 200px;
     height: 200px;
+  }
+
+  .team {
+    width: 80%;
+  }
+
+  .img__team {
+    display: flex;
+    justify-content: center;
   }
 
   .questions__copy {
